@@ -16,7 +16,7 @@
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ contact)\n/* harmony export */ });\n/* harmony import */ var _phone_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./phone.png */ \"./src/phone.png\");\n/* harmony import */ var _map_marker_outline_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./map-marker-outline.png */ \"./src/map-marker-outline.png\");\n/* harmony import */ var _location_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./location.png */ \"./src/location.png\");\n\n\n\n\nfunction contact() {\n  document.getElementById('content').innerHTML = '';\n  const container = document.querySelector('#content');\n\n  // Create the div for contact page\n  const contactPage = document.createElement('div');\n  contactPage.classList.add('contact');\n\n  // Create individual elements for the page\n  const number = document.createElement('div');\n  number.classList.add('number');\n  const phoneIcon = new Image();\n  phoneIcon.src = _phone_png__WEBPACK_IMPORTED_MODULE_0__;\n  phoneIcon.classList.add('icon');\n\n  // Create Text Node for the number\n  const textNode = document.createTextNode('+92-213-2345678');\n  number.appendChild(phoneIcon);\n  number.appendChild(textNode);\n\n  contactPage.appendChild(number);\n\n  // Create Address Element\n  const Address = document.createElement('div');\n  const text = document.createTextNode('144 R Hali Road Block 2 P.E.C.H.S');\n  Address.classList.add('address');\n\n  const addIcon = new Image();\n  addIcon.src = _map_marker_outline_png__WEBPACK_IMPORTED_MODULE_1__;\n  addIcon.classList.add('icon');\n\n  const locationImage = new Image();\n  locationImage.src = _location_png__WEBPACK_IMPORTED_MODULE_2__;\n  locationImage.classList.add('location');\n\n  Address.appendChild(addIcon);\n  Address.appendChild(text);\n  contactPage.appendChild(Address);\n  contactPage.appendChild(locationImage);\n  container.appendChild(contactPage);\n}\n\n\n//# sourceURL=webpack://restaurant-page/./src/contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ contact)\n/* harmony export */ });\n/* harmony import */ var _Images_phone_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Images/phone.png */ \"./src/Images/phone.png\");\n/* harmony import */ var _Images_map_marker_outline_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Images/map-marker-outline.png */ \"./src/Images/map-marker-outline.png\");\n/* harmony import */ var _Images_location_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Images/location.png */ \"./src/Images/location.png\");\n\n\n\n\nfunction contact() {\n  document.getElementById('content').innerHTML = '';\n  const container = document.querySelector('#content');\n\n  // Create the div for contact page\n  const contactPage = document.createElement('div');\n  contactPage.classList.add('contact');\n\n  // Create individual elements for the page\n  const number = document.createElement('div');\n  number.classList.add('number');\n  const phoneIcon = new Image();\n  phoneIcon.src = _Images_phone_png__WEBPACK_IMPORTED_MODULE_0__;\n  phoneIcon.classList.add('icon');\n\n  // Create Text Node for the number\n  const textNode = document.createTextNode('+92-213-2345678');\n  number.appendChild(phoneIcon);\n  number.appendChild(textNode);\n\n  contactPage.appendChild(number);\n\n  // Create Address Element\n  const Address = document.createElement('div');\n  const text = document.createTextNode('144 R Hali Road Block 2 P.E.C.H.S');\n  Address.classList.add('address');\n\n  const addIcon = new Image();\n  addIcon.src = _Images_map_marker_outline_png__WEBPACK_IMPORTED_MODULE_1__;\n  addIcon.classList.add('icon');\n\n  const locationImage = new Image();\n  locationImage.src = _Images_location_png__WEBPACK_IMPORTED_MODULE_2__;\n  locationImage.classList.add('location');\n\n  Address.appendChild(addIcon);\n  Address.appendChild(text);\n  contactPage.appendChild(Address);\n  contactPage.appendChild(locationImage);\n  container.appendChild(contactPage);\n}\n\n\n//# sourceURL=webpack://restaurant-page/./src/contact.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ homepage)\n/* harmony export */ });\n/* harmony import */ var _display_jpeg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./display.jpeg */ \"./src/display.jpeg\");\n\n\nfunction homepage() {\n  const container = document.querySelector('#content');\n  container.innerHTML = '';\n\n  document.querySelector('.Home').classList.add('active');\n\n  const home = document.createElement('div');\n  home.classList.add('home');\n  const para1 = document.createElement('p');\n  const para2 = document.createElement('p');\n\n  para1.textContent = 'Best Italian Food in your town since 1980';\n  para2.textContent = 'Come visit us or Order online';\n  const display = new Image();\n  display.src = _display_jpeg__WEBPACK_IMPORTED_MODULE_0__;\n\n  home.appendChild(para1);\n  home.appendChild(display);\n  home.appendChild(para2);\n  container.appendChild(home);\n}\n\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ homepage)\n/* harmony export */ });\n/* harmony import */ var _Images_display_jpeg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Images/display.jpeg */ \"./src/Images/display.jpeg\");\n\n\nfunction homepage() {\n  const container = document.querySelector('#content');\n  container.innerHTML = '';\n\n  document.querySelector('.Home').classList.add('active');\n\n  const home = document.createElement('div');\n  home.classList.add('home');\n  const para1 = document.createElement('p');\n  const para2 = document.createElement('p');\n\n  para1.textContent = 'Best Italian Food in your town since 1980';\n  para2.textContent = 'Come visit us or Order online';\n  const display = new Image();\n  display.src = _Images_display_jpeg__WEBPACK_IMPORTED_MODULE_0__;\n\n  home.appendChild(para1);\n  home.appendChild(display);\n  home.appendChild(para2);\n  container.appendChild(home);\n}\n\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
 
 /***/ }),
 
@@ -60,43 +60,43 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/display.jpeg":
-/*!**************************!*\
-  !*** ./src/display.jpeg ***!
-  \**************************/
+/***/ "./src/Images/display.jpeg":
+/*!*********************************!*\
+  !*** ./src/Images/display.jpeg ***!
+  \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"e4c80b6b8644ee4a0220.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/display.jpeg?");
+eval("module.exports = __webpack_require__.p + \"e4c80b6b8644ee4a0220.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/Images/display.jpeg?");
 
 /***/ }),
 
-/***/ "./src/location.png":
-/*!**************************!*\
-  !*** ./src/location.png ***!
-  \**************************/
+/***/ "./src/Images/location.png":
+/*!*********************************!*\
+  !*** ./src/Images/location.png ***!
+  \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"1aba79e1e0a537bc8c2e.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/location.png?");
+eval("module.exports = __webpack_require__.p + \"1aba79e1e0a537bc8c2e.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/Images/location.png?");
 
 /***/ }),
 
-/***/ "./src/map-marker-outline.png":
-/*!************************************!*\
-  !*** ./src/map-marker-outline.png ***!
-  \************************************/
+/***/ "./src/Images/map-marker-outline.png":
+/*!*******************************************!*\
+  !*** ./src/Images/map-marker-outline.png ***!
+  \*******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"ce1835f5dd28c618ac57.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/map-marker-outline.png?");
+eval("module.exports = __webpack_require__.p + \"ce1835f5dd28c618ac57.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/Images/map-marker-outline.png?");
 
 /***/ }),
 
-/***/ "./src/phone.png":
-/*!***********************!*\
-  !*** ./src/phone.png ***!
-  \***********************/
+/***/ "./src/Images/phone.png":
+/*!******************************!*\
+  !*** ./src/Images/phone.png ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"33a4f8037c66e8ce806c.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/phone.png?");
+eval("module.exports = __webpack_require__.p + \"33a4f8037c66e8ce806c.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/Images/phone.png?");
 
 /***/ })
 
